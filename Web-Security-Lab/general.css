@@ -1,0 +1,28 @@
+.alertBox, .errorBox{    
+    padding: 5px;
+}
+
+.alertBox h1, .errorBox h1{
+    font-weight: bold;
+    padding: 0;
+    padding-bottom: 5px;
+    font-size: 12pt;
+}
+
+.alertBox{
+    background: #FFBE9F;
+    border: 2px dashed #FF8000;
+}
+
+.errorBox{
+    background: #FF8080;
+    border: 2px dashed #FF0000;
+}
+
+.messageBoardMessage{
+    border: 1px solid #c0c0c0;
+    margin-top: 10px;
+    padding: 5px;   
+    width: 970px;
+    background: #FFE1C4;
+}

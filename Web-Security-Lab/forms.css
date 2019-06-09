@@ -1,0 +1,308 @@
+form{
+    min-width: 485px;
+    width: 485px;
+    margin: 0 auto;
+    clear: both; 
+    float: none;
+}
+
+fieldset{
+    margin-top: 5px;
+    padding: 0;
+    border: 1px solid #87c0dc;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    text-align: left;
+    background: none;
+}
+
+form legend{font-weight: bold; color: #296f8f; padding: 0 4px; }
+
+fieldset div{
+    clear: both;
+    float: none;
+    display: block;
+    text-align: left;    
+    padding: 5px;
+    padding-top: 0px;    
+    padding-right: 10px;
+}
+
+fieldset div.longTextArea{ padding: 0; padding-bottom: 5px; }
+fieldset div.longTextArea label{ width: auto; margin-left: 19px; }
+fieldset div.longTextArea div{ padding-left: 5px; text-align: center; }
+fieldset div.longTextArea div.captcha{ padding: 0; text-align: left; }
+
+form label
+{
+    min-width: 160px;
+    width: 160px;
+    float: left;
+    position: relative;
+    text-align: right;
+    font-weight: bold;
+    padding-right: 5px;   
+    margin-right: 0;
+}
+
+form fieldset label{ margin-top: 4px; margin-left: 0px; }
+
+form .textarea label{
+    text-align: left;
+    padding-bottom: 3px;
+    min-width:100%;
+    width:100%;
+}
+
+form dfn{
+    font-style:normal;
+    width: 300px;
+    text-align: center;
+    padding: 0;
+    display: block;
+    margin-left: 150px;
+    text-align: left;
+    font-size: 8pt;
+}
+
+form .textarea label{ width: 420px; }
+form .textarea dfn{ width: auto; }
+form .textarea textarea{ width: 420px; }
+
+form fieldset div input, form fieldset select, form fieldset textarea{ 
+    border: 1px solid #87c0dc;
+}
+
+form fieldset div input{
+    width: 270px;
+    padding: 5px;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+
+form .checkboxes dfn{
+    margin-left: 0;
+    width: auto;
+    text-align: center;
+}
+form .checkboxes input{ width: 15px; float: left; }
+
+form input.error{ border:1px dotted red; }
+
+form select{
+    min-width: 282px;
+    width: 282px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-right: 1px;
+    padding-left: 2px;
+}
+
+html > body form select{
+    /* Below for everything else */
+    min-width: 287px;
+    width: 287px;
+    /* Below for IE 8 Standards mode */
+    min-width: 283px\0/;
+    width: 283px\0/;
+}
+
+form textarea{
+    width: 452px;
+    margin-left: 0px;
+    height: 100px;
+    padding: 0;
+    margin: 0 auto;
+    padding: 2px;
+}
+
+form .longTextArea textarea{
+    width: 421px;
+    margin-top: 5px;
+}
+
+html>body form .longTextArea textarea{width: 423px;}
+
+form .longTextArea label{ text-align: left; }
+
+form .radio label{ padding-top: 0; }
+
+form .radio span{
+    min-width: 130px;
+    width: 130px;
+    display: inline-block;
+    margin-top: 3px;
+}
+
+form .radio span label{
+    float: left;
+    min-width: 25px;
+    width: 25px;
+    margin-left: 5px;
+    text-align: left;
+    margin-top: 2px;
+}
+
+form .radio span input{
+    float: left;
+    min-width: 15px;
+    width: 15px;
+    border: none;
+    height:auto;
+}
+
+form label.error{
+	display: inline;
+	width: 100%;
+	margin-right: 0;
+	float: none;
+	text-align: left;
+}
+
+#submit-btn-cont
+{
+    padding-bottom: 5px;
+    text-align: center;
+    background: none;
+    border: none;
+    display: block;
+}
+
+.submit-btn{
+    min-width: 100px;
+    width: 100px;
+    padding: 3px;
+    margin: 0 auto;
+}
+
+form .short{
+    min-width: 250px;
+    width: 250px;
+    text-align: right;
+}
+
+form .textarea{ display: inline-block; }
+
+form .radio .textarea span{
+    display: inline;
+    min-width: 0;
+    width: auto;
+}
+
+.radio .textarea span.cke_wrapper{ display: block; }
+
+.cke_skin_kama, .radio .textarea span.cke_skin_kama{ float: left; width: 420px; }
+
+.successDiv { background: transparent url('/img/icons/tick-with-frm-padding.png') no-repeat top right; }
+form .radio .successDiv { background: transparent url('/img/icons/tick.png') no-repeat top right; }
+
+dfn.success, dfn.error{ margin-left: 165px; }
+.longTextArea dfn.success, .longTextArea  dfn.error{ margin-left: 19px; }
+
+.successDiv input { background-color: #ffffff; }
+
+.errorDiv { background: transparent url('/img/icons/cross-with-frm-padding.png') no-repeat top right; }
+
+form .radio .errorDiv { background: transparent url('/img/icons/cross.png') no-repeat top right; }
+
+.errorDiv input, .errorDiv select, .errorDiv textarea{
+    background-color: #ffffff;
+    border: 1px dashed #ff0000;
+}
+
+.error, .success{ padding: 0; margin: 0; }
+em.error { color: black; }
+
+.frm-summary {
+    display: none;
+    background-color: #ffffff;
+    border: 1px dashed #ffffff;
+
+    -moz-border-radius-topleft: 5px;
+    -webkit-border-top-left-radius: 5px;
+    -moz-border-radius-topright: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius-bottomleft: 5px;
+    -webkit-border-bottom-left-radius: 5px;
+    -moz-border-radius-bottomright: 5px;
+    -webkit-border-bottom-right-radius: 5px;
+    /*width: 744px;*/
+    width: 475px;
+    margin: 0 auto;
+    margin-top: 5px
+}
+
+.frm-summary img, .frm-warning img{ position: relative; float: left; width: 16px; padding: 4px; }
+
+.frm-summary h3{
+    position: relative;
+    float: left;
+    width: 375px;
+    padding: 4px;    
+    margin: 0;
+    font-size: 12pt;
+}
+
+.frm-warning {    
+    display: none;
+    background-color: #FEE7A0;
+    border: 1px dashed #c0c0c0;
+    -moz-border-radius-topleft: 5px;
+    -webkit-border-top-left-radius: 5px;
+    -moz-border-radius-topright: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius-bottomleft: 5px;
+    -webkit-border-bottom-left-radius: 5px;
+    -moz-border-radius-bottomright: 5px;
+    -webkit-border-bottom-right-radius: 5px;
+    width: 465px;
+    margin: 0 auto;
+    margin-top: 5px;
+    padding: 5px;
+    text-align: center;
+}
+
+.frm-warning h3{
+    position: relative;
+    float: left;
+    width: 420px;
+    padding: 4px;
+}
+
+label.error{
+	display: inline;
+	width: 100%;
+	margin-right: 0;
+	float: none;
+	text-align: left;
+}
+
+.textarea div, .textarea{
+	display: inline-block;
+}
+
+html>/**/body .textarea div, html>/**/body .textarea { display: block; }
+#recaptcha_area,
+#recaptcha_table { margin: 0 auto !important; border: none !important; }
+#recaptcha_table #recaptcha_image{
+    border: 1px solid #87C0DC !important;
+}
+.recaptchatable .recaptcha_image_cell{ padding: 0 !important; }
+
+.statusBox {
+    background-color: #FFFF80;
+    border: 1px dashed #ffffff;
+    -moz-border-radius-topleft: 5px;
+    -webkit-border-top-left-radius: 5px;
+    -moz-border-radius-topright: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius-bottomleft: 5px;
+    -webkit-border-bottom-left-radius: 5px;
+    -moz-border-radius-bottomright: 5px;
+    -webkit-border-bottom-right-radius: 5px;
+    width: 465px;
+    padding: 5px;
+    margin: 0 auto;
+    margin-top: 5px
+}
