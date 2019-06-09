@@ -1,8 +1,8 @@
 <?php
 // Connect to the database
-$username = "root"; // Put your database username in the quotations
+$username = ""; // Put your database username in the quotations
 $password = ""; // Put your database password in the quotations
-$host = "127.0.0.1";
+$host = "";
 $db = "foobar_users"; // In our case the database name is the same as the username (normally it is 
                 // different) so we can set it as the same as the username
 
