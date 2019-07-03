@@ -1,5 +1,5 @@
 # Disclaimer
-Please DO NOT USE ANY INFORMATION TO HACK WEBSITES. I will not be held responsible for malicious activities.
+Please DO NOT USE ANY THIS INFORMATION TO HACK WEBSITES. I will not be held responsible for malicious activities. Use this web app to practice against common web attacks. 
 
 # Prerequisites
  -PHP.
